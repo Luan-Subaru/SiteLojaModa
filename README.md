@@ -1,5 +1,5 @@
 
-# 🖤 Malopium - Galeria/Loja de High Fashion
+# Malopium - Galeria/Loja de High Fashion
 
 Bem-vindo ao **Malopium**, uma loja conceitual de moda alternativa e high fashion feita inteiramente com **HTML, CSS e JavaScript puro**. Este site representa uma experiência visual ousada e uma interface funcional para exibição e encomenda de peças únicas.
 
