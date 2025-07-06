@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malopium</title>
+    <link rel="icon" href="imagens/icone-site.png" type="image/png">
+    <link rel="stylesheet" href="styles/styles2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Faculty+Glyphic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Faculty+Glyphic&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="imagens/logo_img2.png" alt="gif_logo"></a>
+        </nav>
+    </header>
+
+    <!-- Formulario -->
+    <div class="container">
+        <div class="image-container">
+          <img id="display-image" src="imagens_produtos\stand.png" alt="Imagem Atual">
+        </div>
+        <div class="form-container">
+          <form id="order-form">
+            <label for="image-options">Escolha uma peça:</label>
+            <select id="image-options">
+                <option value="imagens_produtos\stand.png" selected disabled>Selecione...</option>
+                <option value="imagens_produtos/camiseta1.jpg" data-alt="Camisa CDG">Camisa CDG</option>
+                <option value="imagens_produtos/camiseta2.png" data-alt="Camisa Oakley x Piet">Camisa Oakley x Piet</option>
+                <option value="imagens_produtos/calca1.jpg" data-alt="Calça Baggy Vetements">Calça Baggy Vetements</option>
+                <option value="imagens_produtos/calca2.jpg" data-alt="Calça Baggy Balenciaga">Calça Baggy Balenciaga</option>
+                <option value="imagens_produtos/bota1.jpg" data-alt="Bota New Rocks M-575-S1">Bota New Rocks M-575-S1</option>
+                <option value="imagens_produtos/bota2.jpg" data-alt="Bota New Rocks M-WALL106-S25">Bota New Rocks M-WALL106-S25</option>
+            </select>
+            
+            <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+
+    <!-- Endereço -->
+    <label for="address">Endereço:</label>
+    <textarea id="address" name="address" required placeholder="Digite seu endereço.
+Ex.: Rua Coquinho, 86."></textarea>
+    
+            <button type="submit" id="order-button">Encomendar</button>
+          </form>
+        </div>
+      </div>
+
+    <script src="scripts/script.js"></script>
+</body>
